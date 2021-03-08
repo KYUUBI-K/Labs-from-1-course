@@ -1,0 +1,13 @@
+E:\For c# and web prog\C#\5 лабка\завдання3\bin\Debug\netcoreapp3.1\завдання3.exe
+E:\For c# and web prog\C#\5 лабка\завдання3\bin\Debug\netcoreapp3.1\завдання3.deps.json
+E:\For c# and web prog\C#\5 лабка\завдання3\bin\Debug\netcoreapp3.1\завдання3.runtimeconfig.json
+E:\For c# and web prog\C#\5 лабка\завдання3\bin\Debug\netcoreapp3.1\завдання3.runtimeconfig.dev.json
+E:\For c# and web prog\C#\5 лабка\завдання3\bin\Debug\netcoreapp3.1\завдання3.dll
+E:\For c# and web prog\C#\5 лабка\завдання3\bin\Debug\netcoreapp3.1\завдання3.pdb
+E:\For c# and web prog\C#\5 лабка\завдання3\obj\Debug\netcoreapp3.1\завдання3.csprojAssemblyReference.cache
+E:\For c# and web prog\C#\5 лабка\завдання3\obj\Debug\netcoreapp3.1\завдання3.AssemblyInfoInputs.cache
+E:\For c# and web prog\C#\5 лабка\завдання3\obj\Debug\netcoreapp3.1\завдання3.AssemblyInfo.cs
+E:\For c# and web prog\C#\5 лабка\завдання3\obj\Debug\netcoreapp3.1\завдання3.csproj.CoreCompileInputs.cache
+E:\For c# and web prog\C#\5 лабка\завдання3\obj\Debug\netcoreapp3.1\завдання3.dll
+E:\For c# and web prog\C#\5 лабка\завдання3\obj\Debug\netcoreapp3.1\завдання3.pdb
+E:\For c# and web prog\C#\5 лабка\завдання3\obj\Debug\netcoreapp3.1\завдання3.genruntimeconfig.cache

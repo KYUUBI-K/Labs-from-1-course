@@ -1,0 +1,13 @@
+E:\For c# and web prog\C#\4 лабка\2 завдання\obj\Debug\netcoreapp3.1\2 завдання.csprojAssemblyReference.cache
+E:\For c# and web prog\C#\4 лабка\2 завдання\obj\Debug\netcoreapp3.1\2 завдання.AssemblyInfoInputs.cache
+E:\For c# and web prog\C#\4 лабка\2 завдання\obj\Debug\netcoreapp3.1\2 завдання.AssemblyInfo.cs
+E:\For c# and web prog\C#\4 лабка\2 завдання\obj\Debug\netcoreapp3.1\2 завдання.csproj.CoreCompileInputs.cache
+E:\For c# and web prog\C#\4 лабка\2 завдання\bin\Debug\netcoreapp3.1\2 завдання.exe
+E:\For c# and web prog\C#\4 лабка\2 завдання\bin\Debug\netcoreapp3.1\2 завдання.deps.json
+E:\For c# and web prog\C#\4 лабка\2 завдання\bin\Debug\netcoreapp3.1\2 завдання.runtimeconfig.json
+E:\For c# and web prog\C#\4 лабка\2 завдання\bin\Debug\netcoreapp3.1\2 завдання.runtimeconfig.dev.json
+E:\For c# and web prog\C#\4 лабка\2 завдання\bin\Debug\netcoreapp3.1\2 завдання.dll
+E:\For c# and web prog\C#\4 лабка\2 завдання\bin\Debug\netcoreapp3.1\2 завдання.pdb
+E:\For c# and web prog\C#\4 лабка\2 завдання\obj\Debug\netcoreapp3.1\2 завдання.dll
+E:\For c# and web prog\C#\4 лабка\2 завдання\obj\Debug\netcoreapp3.1\2 завдання.pdb
+E:\For c# and web prog\C#\4 лабка\2 завдання\obj\Debug\netcoreapp3.1\2 завдання.genruntimeconfig.cache
