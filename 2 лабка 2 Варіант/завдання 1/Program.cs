@@ -11,10 +11,11 @@ namespace завдання_1
             Console.Write("n=");
             double n = Convert.ToDouble(Console.ReadLine());
             double S = 0;           
-            for(double i=1;i<=n;i++)
-                S=S+ Math.Log(Math.Abs(Math.Pow(a, n)));
-
-            Console.WriteLine("S = {0}",S);
+            for(int i = 1; i <= n; i++)
+            {
+                S=S+ Math.Log(Math.Abs(Math.Pow(i, n)));
+            }
+            
         }
     }
 }

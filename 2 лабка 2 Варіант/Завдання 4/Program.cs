@@ -12,7 +12,7 @@ namespace Завдання_4
             int x1 = 1;
             int xi = 0;
             // знаходи xi
-            for (int i = 2; i < n; i++)
+            for (int i = 2; i < n+1; i++)
             {
                 xi = x1 + 2 * x0;
                 x1 = xi;

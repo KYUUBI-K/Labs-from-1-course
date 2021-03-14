@@ -1,0 +1,14 @@
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\bin\Debug\Лабка 2 Варіант 2 завдання(1,2,3,4).exe.config
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\bin\Debug\Лабка 2 Варіант 2 завдання(1,2,3,4).exe
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\bin\Debug\Лабка 2 Варіант 2 завдання(1,2,3,4).pdb
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\obj\Debug\Лабка 2 Варіант 2 завдання(1,2,3,4).csprojAssemblyReference.cache
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\obj\Debug\Лабка_2_Варіант_2_завдання_1_2_3_4_.Form1.resources
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\obj\Debug\Лабка_2_Варіант_2_завдання_1_2_3_4_.Form2.resources
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\obj\Debug\Лабка_2_Варіант_2_завдання_1_2_3_4_.Form3.resources
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\obj\Debug\Лабка_2_Варіант_2_завдання_1_2_3_4_.Form4.resources
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\obj\Debug\Лабка_2_Варіант_2_завдання_1_2_3_4_.Form5.resources
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\obj\Debug\Лабка_2_Варіант_2_завдання_1_2_3_4_.Properties.Resources.resources
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\obj\Debug\Лабка 2 Варіант 2 завдання(1,2,3,4).csproj.GenerateResource.cache
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\obj\Debug\Лабка 2 Варіант 2 завдання(1,2,3,4).csproj.CoreCompileInputs.cache
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\obj\Debug\Лабка 2 Варіант 2 завдання(1,2,3,4).exe
+E:\For c# and web prog\C#\Windows forms\Лабка 2 Варіант 2 завдання(1,2,3,4)\obj\Debug\Лабка 2 Варіант 2 завдання(1,2,3,4).pdb
