@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\For c# and web prog\\C#\\4 лабка\\Завдання 3\\Завдання 3.csproj": {}
+    "E:\\For c# and web prog\\C#\\7 лабка 2 Варіант\\Завдання 3\\Завдання 3.csproj": {}
   },
   "projects": {
-    "E:\\For c# and web prog\\C#\\4 лабка\\Завдання 3\\Завдання 3.csproj": {
+    "E:\\For c# and web prog\\C#\\7 лабка 2 Варіант\\Завдання 3\\Завдання 3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\For c# and web prog\\C#\\4 лабка\\Завдання 3\\Завдання 3.csproj",
+        "projectUniqueName": "E:\\For c# and web prog\\C#\\7 лабка 2 Варіант\\Завдання 3\\Завдання 3.csproj",
         "projectName": "Завдання 3",
-        "projectPath": "E:\\For c# and web prog\\C#\\4 лабка\\Завдання 3\\Завдання 3.csproj",
+        "projectPath": "E:\\For c# and web prog\\C#\\7 лабка 2 Варіант\\Завдання 3\\Завдання 3.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "E:\\For c# and web prog\\C#\\4 лабка\\Завдання 3\\obj\\",
+        "outputPath": "E:\\For c# and web prog\\C#\\7 лабка 2 Варіант\\Завдання 3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

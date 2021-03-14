@@ -1,0 +1,14 @@
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\obj\Debug\Завдання 1.csprojAssemblyReference.cache
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\obj\Debug\Завдання_1.Form1.resources
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\obj\Debug\Завдання_1.Properties.Resources.resources
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\obj\Debug\Завдання 1.csproj.GenerateResource.cache
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\obj\Debug\Завдання 1.csproj.CoreCompileInputs.cache
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\bin\Debug\Завдання 1.exe.config
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\bin\Debug\Завдання 1.exe
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\bin\Debug\Завдання 1.pdb
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\obj\Debug\Завдання 1.exe
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\obj\Debug\Завдання 1.pdb
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\obj\Debug\Завдання_1.Form2.resources
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\obj\Debug\Завдання_1.Form3.resources
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\obj\Debug\Завдання_1.Form4.resources
+E:\For c# and web prog\C#\Windows forms\Лабка 1 Варіант 2\Завдання 1\obj\Debug\Завдання_1.Form5.resources

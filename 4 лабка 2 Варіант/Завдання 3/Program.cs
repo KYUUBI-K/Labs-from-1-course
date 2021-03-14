@@ -2,41 +2,104 @@
 
 namespace Завдання_3
 {
-    class zavd3
+    class Program
     {
-        static void Main(string[] args)
+        static double[,] inputArray(int rowCount, int colCount, bool randomMode = false, int minRandValue = -10, int maxRandValue = 11)
         {
-            //Вводимо координати т.А
-            Console.Write("x1=");
-            double x1 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("y1=");
-            double y1 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("x2=");
-            //Вводимо координати т.B
-            double x2 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("y2=");
-            double y2 = Convert.ToDouble(Console.ReadLine());
-            //Вводимо координати т.C
-            Console.Write("x3=");
-            double x3= Convert.ToDouble(Console.ReadLine());
-            Console.Write("y3=");
-            double y3 = Convert.ToDouble(Console.ReadLine());
-            double ab = (x2 - x1) * (x3 - x2) + (y2 - y1) * (y3 - y2);
-            double ac = (x2 - x1) * (x3 - x1) + (y2 - y1) * (y3 - y1);
-            double bc = (x3 - x2) * (x3 - x1) + (y3 - y2) * (y3 - y1);
-            double eps = 0.000001; //Добавляємо якесь епсілон
-            if ((ab) < eps)
-                Console.WriteLine("Трикутник прямокутний");
-            else if ((ac) < eps)
-                Console.WriteLine("Трикутник прямокутний");
-
-            else if ((bc) < eps)
-                Console.WriteLine("Трикутник прямокутний");
-
-            else
-                Console.WriteLine("Трикутник не прямокутний");
+            //2. Виділяємо пам"ять для масиву
+            double[,] arr = new double[rowCount, colCount];
+            //3. Вводимо елементи масиву або геренуємо їх
+            Random rand = new Random(DateTime.Now.Millisecond);
+            for (int i = 0; i < arr.GetLength(0); i++) //Як змінюються номери рядків
+            {
+                for (int j = 0; j < arr.GetLength(1); j++) //Як змінюються номери стовпців
+                {
+                    if (randomMode)
+                        arr[i, j] = rand.Next(minRandValue, maxRandValue);
+                    else
+                    {
+                        Console.Write($"a[{i},{j}]=");
+                        arr[i, j] = Convert.ToDouble(Console.ReadLine());
+                    }
+                }
+            }
+            return arr;
+        }
 
 
+        static void printArray(double[,] arr)
+        {
+            //Вивід матриці на екран
+            for (int i = 0; i < arr.GetLength(0); i++) //Як змінюються номери рядків
+            {
+                for (int j = 0; j < arr.GetLength(1); j++) //Як змінюються номери стовпців
+                {
+                    Console.Write("{0,8:f}  ", arr[i, j]);
+                }
+                Console.WriteLine();
+            }
+        }
+        static double[] Randomarray(int rowCount)
+        {
+            double[] arr = new double[rowCount];
+            Random rand = new Random(DateTime.Now.Millisecond);
+            for (int i = 0; i < rowCount; i++)
+            {
+
+                {
+                    arr[i] = rand.Next(-100, 101);
+
+                }
+
+            }
+            return arr;
+        }
+        static void printField(double[] arr)
+        {
+            Console.Write("  [ ");
+            for (int i = 0; i < arr.GetLength(0); i++)
+            {
+                Console.Write($"{arr[i]} ");
+            }
+            Console.Write("]\n");
+        }
+            static void Main(string[] args)
+        {
+            //1. Вводимо кількість рядків і кількість стовпців
+            Console.Write("n=");
+            int n = Convert.ToInt32(Console.ReadLine());
+            Console.Write("m=");
+            int m = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Вимір вектора=");
+            int v = Convert.ToInt32(Console.ReadLine());
+            double[] x = Randomarray(v);
+            printField(x);
+            //2. Виділяємо пам"ять  i вводимо елементи масиву або геренуємо їх
+            double[,] a = inputArray(n, m, true);
+            //4. Виконуємо операції з масивом
+            //Вивід матриці на екран
+            printArray(a);
+            
+            for (int i = 0; i < n; i++)
+            {
+                for (int g = 0; g < m; g++)
+                {
+                    for (int j = 0; j < v; j++)
+                    {
+                    a[i,j] = a[i, j] * x[j];
+                    }
+
+                }
+            }
+            Console.WriteLine("------------");
+            printArray(a);
+            double[] xa;
+            for (int i = 0; i < n; i++)
+            {
+                xa = 
+            }
+           
+                
         }
     }
 }
