@@ -12,7 +12,7 @@ namespace Завдання_1
             {
                 
                 {
-                    arr[i] = rand.Next(-100, 101);
+                    arr[i] = rand.Next(-10, 101);
 
                 }
                 
@@ -37,7 +37,7 @@ namespace Завдання_1
             double[]m = Randomarray(n);
             printField(m);
             double d = 1;
-            double g = 0;
+            double g = 1.0;
             for (int i = 0; i < m.GetLength(0); i++)
             {
                 d *=m[i];
@@ -47,9 +47,13 @@ namespace Завдання_1
             Console.WriteLine($"Добуток = {d}");
             if(d>0)
             {
-                g = Math.Pow(d, 1 / n);
+                g = Math.Pow(d, 1.0 / n);
+                Console.WriteLine($"g={g}");
             }
-            Console.WriteLine($"g={g}");
+            else
+            {
+                Console.WriteLine("Середнього геометричного немає, оскільки добуток від'ємний");
+            }
 
 
 

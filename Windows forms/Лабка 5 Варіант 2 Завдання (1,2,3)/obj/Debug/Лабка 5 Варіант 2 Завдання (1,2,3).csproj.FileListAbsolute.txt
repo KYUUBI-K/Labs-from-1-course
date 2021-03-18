@@ -1,0 +1,10 @@
+E:\For c# and web prog\C#\Windows forms\Лабка 5 Варіант 2 Завдання (1,2,3)\bin\Debug\Лабка 5 Варіант 2 Завдання (1,2,3).exe.config
+E:\For c# and web prog\C#\Windows forms\Лабка 5 Варіант 2 Завдання (1,2,3)\bin\Debug\Лабка 5 Варіант 2 Завдання (1,2,3).exe
+E:\For c# and web prog\C#\Windows forms\Лабка 5 Варіант 2 Завдання (1,2,3)\bin\Debug\Лабка 5 Варіант 2 Завдання (1,2,3).pdb
+E:\For c# and web prog\C#\Windows forms\Лабка 5 Варіант 2 Завдання (1,2,3)\obj\Debug\Лабка 5 Варіант 2 Завдання (1,2,3).csprojAssemblyReference.cache
+E:\For c# and web prog\C#\Windows forms\Лабка 5 Варіант 2 Завдання (1,2,3)\obj\Debug\Лабка_5_Варіант_2_Завдання__1_2_3_.Form1.resources
+E:\For c# and web prog\C#\Windows forms\Лабка 5 Варіант 2 Завдання (1,2,3)\obj\Debug\Лабка_5_Варіант_2_Завдання__1_2_3_.Properties.Resources.resources
+E:\For c# and web prog\C#\Windows forms\Лабка 5 Варіант 2 Завдання (1,2,3)\obj\Debug\Лабка 5 Варіант 2 Завдання (1,2,3).csproj.GenerateResource.cache
+E:\For c# and web prog\C#\Windows forms\Лабка 5 Варіант 2 Завдання (1,2,3)\obj\Debug\Лабка 5 Варіант 2 Завдання (1,2,3).csproj.CoreCompileInputs.cache
+E:\For c# and web prog\C#\Windows forms\Лабка 5 Варіант 2 Завдання (1,2,3)\obj\Debug\Лабка 5 Варіант 2 Завдання (1,2,3).exe
+E:\For c# and web prog\C#\Windows forms\Лабка 5 Варіант 2 Завдання (1,2,3)\obj\Debug\Лабка 5 Варіант 2 Завдання (1,2,3).pdb

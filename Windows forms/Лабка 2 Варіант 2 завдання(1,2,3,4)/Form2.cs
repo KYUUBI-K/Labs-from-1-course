@@ -16,6 +16,12 @@ namespace Лабка_2_Варіант_2_завдання_1_2_3_4_
         {
             InitializeComponent();
         }
+        public Form2(Form form_P)
+        {
+            this.form_P = form_P;
+            InitializeComponent();
+        }
+        private Form form_P;
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -25,8 +31,7 @@ namespace Лабка_2_Варіант_2_завдання_1_2_3_4_
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 form1 = new Form1();
-            form1.Show();
+            this.form_P.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

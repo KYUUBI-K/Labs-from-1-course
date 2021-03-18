@@ -16,14 +16,16 @@ namespace Лабка_2_Варіант_2_завдання_1_2_3_4_
             public Form1()
             {
                 InitializeComponent();
+            this.form2 = new Form2(this);
             }
+            
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 form2 = new Form2();
             form2.Show();
         }
+        Form2 form2;
 
         private void button2_Click(object sender, EventArgs e)
         {

@@ -70,9 +70,7 @@ namespace Завдання_3
             int n = Convert.ToInt32(Console.ReadLine());
             Console.Write("m=");
             int m = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Вимір вектора=");
-            int v = Convert.ToInt32(Console.ReadLine());
-            double[] x = Randomarray(v);
+            double[] x = Randomarray(n);
             printField(x);
             //2. Виділяємо пам"ять  i вводимо елементи масиву або геренуємо їх
             double[,] a = inputArray(n, m, true);
@@ -82,23 +80,26 @@ namespace Завдання_3
             
             for (int i = 0; i < n; i++)
             {
-                for (int g = 0; g < m; g++)
+                for (int j = 0; j < m; j++)
+                
                 {
-                    for (int j = 0; j < v; j++)
-                    {
                     a[i,j] = a[i, j] * x[j];
-                    }
-
                 }
+
+                
             }
             Console.WriteLine("------------");
             printArray(a);
-            double[] xa;
+            double[] xa=new double[n];
             for (int i = 0; i < n; i++)
             {
-                xa = 
+                xa[i] = 0;
+                for (int j = 0; j < n; j++)
+                {
+                    xa[i] += a[i,j];
+                }
             }
-           
+            printField(xa);
                 
         }
     }

@@ -66,31 +66,31 @@ namespace Завдання_4
             printArray(arr);
             for (int i = 0; i < arr.GetLength(0); i++)
             {
-                if (i%10!=0)
+                if (i%2!=0)
                 {
-                    for (int col = 0; col < arr.GetLength(0); col++)
-                    {
                         for (int iter = 1; iter < arr.GetLength(1); iter++)
+                    {
+                    for (int col = 0; col < arr.GetLength(1)-iter; col++)
                         {
-                            for (int row = 0; row < m; row++)
-                            {
-                                if (arr[row+1,col]<arr[row,col])
+                           
+                                if (arr[i,col]>arr[i,col+1])
                                 {
-                                    double temp = arr[row, col];
-                                    arr[row, col] = arr[row + 1,col];
-                                    arr[row + 1, col] = temp;
+                                    double temp = arr[i, col];
+                                    arr[i, col] = arr[i,col+1];
+                                    arr[i, col+1] = temp;
 
                                 }
                             }
                         }
                     }
                 }
-            }
+            Console.WriteLine("----------");
             printArray(arr);
+            }
 
         }
 
             
         
     }
-}
+
