@@ -74,16 +74,29 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             this.label12 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.label19 = new System.Windows.Forms.Label();
+            this.dataGridView10 = new System.Windows.Forms.DataGridView();
+            this.label18 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.m_txb = new System.Windows.Forms.TextBox();
             this.n_txb = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.dataGridView10 = new System.Windows.Forms.DataGridView();
-            this.label19 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.dataGridView11 = new System.Windows.Forms.DataGridView();
+            this.dataGridView12 = new System.Windows.Forms.DataGridView();
+            this.dataGridView13 = new System.Windows.Forms.DataGridView();
+            this.col_count = new System.Windows.Forms.TextBox();
+            this.row_count = new System.Windows.Forms.TextBox();
+            this.dataGridView14 = new System.Windows.Forms.DataGridView();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -100,6 +113,11 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).BeginInit();
+            this.tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView14)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -560,6 +578,41 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             this.tabPage5.Text = "Завдання 5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(615, 3);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(45, 17);
+            this.label19.TabIndex = 8;
+            this.label19.Text = "Matrix";
+            // 
+            // dataGridView10
+            // 
+            this.dataGridView10.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView10.Location = new System.Drawing.Point(517, 0);
+            this.dataGridView10.Name = "dataGridView10";
+            this.dataGridView10.RowHeadersWidth = 51;
+            this.dataGridView10.RowTemplate.Height = 24;
+            this.dataGridView10.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView10.TabIndex = 7;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(46, 180);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(268, 17);
+            this.label18.TabIndex = 6;
+            this.label18.Text = "Кількість стовпчиків з не 0 елементами";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(337, 175);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 5;
+            // 
             // m_txb
             // 
             this.m_txb.Location = new System.Drawing.Point(337, 68);
@@ -604,6 +657,19 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.label25);
+            this.tabPage6.Controls.Add(this.label24);
+            this.tabPage6.Controls.Add(this.label23);
+            this.tabPage6.Controls.Add(this.label22);
+            this.tabPage6.Controls.Add(this.label21);
+            this.tabPage6.Controls.Add(this.label20);
+            this.tabPage6.Controls.Add(this.dataGridView14);
+            this.tabPage6.Controls.Add(this.row_count);
+            this.tabPage6.Controls.Add(this.col_count);
+            this.tabPage6.Controls.Add(this.dataGridView13);
+            this.tabPage6.Controls.Add(this.dataGridView12);
+            this.tabPage6.Controls.Add(this.dataGridView11);
+            this.tabPage6.Controls.Add(this.button6);
             this.tabPage6.Location = new System.Drawing.Point(4, 25);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
@@ -612,40 +678,123 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             this.tabPage6.Text = "Завдання 6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // button6
             // 
-            this.textBox1.Location = new System.Drawing.Point(337, 175);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 5;
+            this.button6.Location = new System.Drawing.Point(136, 117);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(184, 23);
+            this.button6.TabIndex = 0;
+            this.button6.Text = "get_sorted Matrix";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // label18
+            // dataGridView11
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(46, 180);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(268, 17);
-            this.label18.TabIndex = 6;
-            this.label18.Text = "Кількість стовпчиків з не 0 елементами";
+            this.dataGridView11.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView11.Location = new System.Drawing.Point(384, 6);
+            this.dataGridView11.Name = "dataGridView11";
+            this.dataGridView11.RowHeadersWidth = 51;
+            this.dataGridView11.RowTemplate.Height = 24;
+            this.dataGridView11.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView11.TabIndex = 1;
             // 
-            // dataGridView10
+            // dataGridView12
             // 
-            this.dataGridView10.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView10.Location = new System.Drawing.Point(517, 0);
-            this.dataGridView10.Name = "dataGridView10";
-            this.dataGridView10.RowHeadersWidth = 51;
-            this.dataGridView10.RowTemplate.Height = 24;
-            this.dataGridView10.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView10.TabIndex = 7;
+            this.dataGridView12.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView12.Location = new System.Drawing.Point(3, 186);
+            this.dataGridView12.Name = "dataGridView12";
+            this.dataGridView12.RowHeadersWidth = 51;
+            this.dataGridView12.RowTemplate.Height = 24;
+            this.dataGridView12.Size = new System.Drawing.Size(464, 72);
+            this.dataGridView12.TabIndex = 2;
             // 
-            // label19
+            // dataGridView13
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(615, 3);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(45, 17);
-            this.label19.TabIndex = 8;
-            this.label19.Text = "Matrix";
+            this.dataGridView13.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView13.Location = new System.Drawing.Point(546, 211);
+            this.dataGridView13.Name = "dataGridView13";
+            this.dataGridView13.RowHeadersWidth = 51;
+            this.dataGridView13.RowTemplate.Height = 24;
+            this.dataGridView13.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView13.TabIndex = 3;
+            // 
+            // col_count
+            // 
+            this.col_count.Location = new System.Drawing.Point(189, 6);
+            this.col_count.Name = "col_count";
+            this.col_count.Size = new System.Drawing.Size(100, 22);
+            this.col_count.TabIndex = 4;
+            // 
+            // row_count
+            // 
+            this.row_count.Location = new System.Drawing.Point(189, 52);
+            this.row_count.Name = "row_count";
+            this.row_count.Size = new System.Drawing.Size(100, 22);
+            this.row_count.TabIndex = 5;
+            // 
+            // dataGridView14
+            // 
+            this.dataGridView14.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView14.Location = new System.Drawing.Point(3, 299);
+            this.dataGridView14.Name = "dataGridView14";
+            this.dataGridView14.RowHeadersWidth = 51;
+            this.dataGridView14.RowTemplate.Height = 24;
+            this.dataGridView14.Size = new System.Drawing.Size(464, 74);
+            this.dataGridView14.TabIndex = 6;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(133, 11);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(16, 17);
+            this.label20.TabIndex = 7;
+            this.label20.Text = "n";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(133, 57);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(19, 17);
+            this.label21.TabIndex = 8;
+            this.label21.Text = "m";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(148, 279);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(152, 17);
+            this.label22.TabIndex = 9;
+            this.label22.Text = "Відсортований масив ";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(148, 166);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(208, 17);
+            this.label23.TabIndex = 10;
+            this.label23.Text = "Масив із сумою рядків матриці";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(471, 6);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(66, 17);
+            this.label24.TabIndex = 11;
+            this.label24.Text = "Матриця";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(543, 191);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(238, 17);
+            this.label25.TabIndex = 12;
+            this.label25.Text = "Відсортована за рядками Матриця";
             // 
             // Form1
             // 
@@ -677,6 +826,12 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).EndInit();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView14)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -738,6 +893,19 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
         private System.Windows.Forms.DataGridView dataGridView10;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox row_count;
+        private System.Windows.Forms.TextBox col_count;
+        private System.Windows.Forms.DataGridView dataGridView13;
+        private System.Windows.Forms.DataGridView dataGridView12;
+        private System.Windows.Forms.DataGridView dataGridView11;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.DataGridView dataGridView14;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label25;
     }
 }
 

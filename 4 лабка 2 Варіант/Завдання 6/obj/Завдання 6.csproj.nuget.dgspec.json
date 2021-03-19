@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\For c# and web prog\\C#\\Windows forms\\Лабка 4 Варіант 2\\Завдання 6\\Завдання 6.csproj": {}
+    "E:\\For c# and web prog\\C#\\4 лабка 2 Варіант\\Завдання 6\\Завдання 6.csproj": {}
   },
   "projects": {
-    "E:\\For c# and web prog\\C#\\Windows forms\\Лабка 4 Варіант 2\\Завдання 6\\Завдання 6.csproj": {
+    "E:\\For c# and web prog\\C#\\4 лабка 2 Варіант\\Завдання 6\\Завдання 6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\For c# and web prog\\C#\\Windows forms\\Лабка 4 Варіант 2\\Завдання 6\\Завдання 6.csproj",
+        "projectUniqueName": "E:\\For c# and web prog\\C#\\4 лабка 2 Варіант\\Завдання 6\\Завдання 6.csproj",
         "projectName": "Завдання 6",
-        "projectPath": "E:\\For c# and web prog\\C#\\Windows forms\\Лабка 4 Варіант 2\\Завдання 6\\Завдання 6.csproj",
+        "projectPath": "E:\\For c# and web prog\\C#\\4 лабка 2 Варіант\\Завдання 6\\Завдання 6.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "E:\\For c# and web prog\\C#\\Windows forms\\Лабка 4 Варіант 2\\Завдання 6\\obj\\",
+        "outputPath": "E:\\For c# and web prog\\C#\\4 лабка 2 Варіант\\Завдання 6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",

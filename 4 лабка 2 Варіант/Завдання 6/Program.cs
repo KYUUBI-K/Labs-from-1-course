@@ -31,7 +31,7 @@ namespace Завдання_6
                     Console.WriteLine();
                 }
             }
-        
+
         static void Main(string[] args)
         {
             Console.Write("n=");
@@ -40,21 +40,48 @@ namespace Завдання_6
             int m = Convert.ToInt32(Console.ReadLine());
             double[,] arr = inputArray(n, m);
             printArray(arr);
-            double[] massive;
-            for (int i = 0; i < n+1; i++)
+            double[] massive = new double[arr.GetLength(0)];
+            for (int i = 0; i < arr.GetLength(0); i++)
             {
-                for (int j = 0; j < arr.Length; j++)
+                massive[i] = 0;
+                for (int j = 0; j < arr.GetLength(1); j++)
                 {
-                    if(j%2==0 && j > 0)
+                    if (arr[i, j] % 2 == 0 && arr[i, j] > 0)
                     {
-                        double sum = 0;
-                        sum += arr[i,j];
-                        Console.WriteLine(sum);
-
+                        massive[i] += arr[i, j];
                     }
-                    
                 }
             }
+                foreach (int k in massive)
+                {
+                    Console.WriteLine(k);
+                }
+            double g;
+            for (int i = 0; i < massive.Length - 1; i++)
+            {
+                for (int j = i + 1; j < massive.Length; j++)
+                {
+                    if (massive[i] > massive[j])
+                    {
+                        g = massive[i];
+                        massive[i] = massive[j];
+                        massive[j] = g;
+                        for (int count = 0; count < arr.GetLength(0); count++)
+                        {
+                            g = arr[i, count];
+                            arr[i, count] = arr[j, count];
+                            arr[j, count] = g;
+                        }
+
+                    }
+                }
+            }
+            Console.WriteLine("--------");
+            foreach (int k in massive)
+            {
+                Console.WriteLine(k);
+            }
+            printArray(arr);
         }
     }
 }

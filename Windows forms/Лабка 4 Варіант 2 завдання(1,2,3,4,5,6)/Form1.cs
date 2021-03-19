@@ -205,6 +205,73 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             }
             textBox1.Text = count.ToString();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            int n = Convert.ToInt32(col_count.Text);
+            int m = Convert.ToInt32(row_count.Text);
+            double[,] arr = Create_arr.inputArray(n, m);
+            dataGridView11.RowCount = n;
+            dataGridView11.ColumnCount = m;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    dataGridView11[j, i].Value = arr[i, j];
+                }
+            }
+            double[] massive = new double[arr.GetLength(0)];
+            dataGridView12.ColumnCount = n;
+            for (int i = 0; i < arr.GetLength(0); i++)
+            {
+                massive[i] = 0;
+                for (int j = 0; j < arr.GetLength(1); j++)
+                {
+                    if (arr[i, j] % 2 == 0 && arr[i, j] > 0)
+                    {
+                        massive[i] += arr[i, j];
+                    }
+                }
+            }
+            for (int i = 0; i < n; i++)
+            {
+                dataGridView12[i, 0].Value = massive[i];
+            }
+            double g;
+            for (int i = 0; i < massive.Length - 1; i++)
+            {
+                for (int j = i + 1; j < massive.Length; j++)
+                {
+                    if (massive[i] > massive[j])
+                    {
+                        g = massive[i];
+                        massive[i] = massive[j];
+                        massive[j] = g;
+                        for (int count = 0; count < arr.GetLength(0); count++)
+                        {
+                            g = arr[i, count];
+                            arr[i, count] = arr[j, count];
+                            arr[j, count] = g;
+                        }
+
+                    }
+                }
+            }
+            dataGridView14.ColumnCount = n;
+            for (int i = 0; i < n; i++)
+            {
+                dataGridView14[i, 0].Value = massive[i];
+            }
+            dataGridView13.RowCount = n;
+            dataGridView13.ColumnCount = m;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    dataGridView13[j, i].Value = arr[i, j];
+                }
+            }
+        }
     }
 }
         
