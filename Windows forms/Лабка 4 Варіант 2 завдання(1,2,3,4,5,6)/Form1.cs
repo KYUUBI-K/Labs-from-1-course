@@ -171,5 +171,40 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
                 }
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            int n = Convert.ToInt32(n_txb.Text);
+            int m = Convert.ToInt32(m_txb.Text);
+            double[,] arr = Create_arr.inputArray(n, m);
+            dataGridView10.RowCount = n;
+            dataGridView10.ColumnCount = m;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    dataGridView10[j, i].Value = arr[i, j];
+                }
+            }
+        int count = 0;
+            for (int j = 0; j < n; j++)
+            {
+                bool is_zero = false;
+                for (int i = 0; i < m; i++)
+                {
+                    if (arr[i, j] == 0)
+                    {
+                        is_zero = true;
+                        break;
+                    }
+                }
+                if (is_zero == false)
+                {
+                    count++;
+                }
+            }
+            textBox1.Text = count.ToString();
+        }
     }
 }
+        

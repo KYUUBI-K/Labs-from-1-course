@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\For c# and web prog\\C#\\6 лабка\\3 завдання\\просто.csproj",
+      "projectUniqueName": "E:\\For c# and web prog\\C#\\3 лабка 2 Варіант\\3 завдання\\просто.csproj",
       "projectName": "просто",
-      "projectPath": "E:\\For c# and web prog\\C#\\6 лабка\\3 завдання\\просто.csproj",
+      "projectPath": "E:\\For c# and web prog\\C#\\3 лабка 2 Варіант\\3 завдання\\просто.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "E:\\For c# and web prog\\C#\\6 лабка\\3 завдання\\obj\\",
+      "outputPath": "E:\\For c# and web prog\\C#\\3 лабка 2 Варіант\\3 завдання\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -42,7 +42,11 @@ namespace завдання3
             {
                 x[i] *= a;
             }
-            printField(x);
+            foreach (int i in x)
+            {
+                Console.Write("[]"+i );
+            }
+
 
         }
            

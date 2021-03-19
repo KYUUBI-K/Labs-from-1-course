@@ -36,8 +36,9 @@ namespace Лабка_5_Варіант_2_Завдання__1_2_3_
 
         private void button3_Click(object sender, EventArgs e)
         {
-           
-            
+            double S = Find_something.get_res(7) + Find_something.get_res(9);
+            textBox7.Text = S.ToString();
+
         }
     }
 }

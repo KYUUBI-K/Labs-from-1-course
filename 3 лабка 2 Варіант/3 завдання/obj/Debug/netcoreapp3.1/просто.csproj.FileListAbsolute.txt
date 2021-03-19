@@ -23,3 +23,16 @@ E:\For c# and web prog\C#\6 лабка\3 завдання\obj\Debug\netcoreapp3.
 E:\For c# and web prog\C#\6 лабка\3 завдання\obj\Debug\netcoreapp3.1\просто.dll
 E:\For c# and web prog\C#\6 лабка\3 завдання\obj\Debug\netcoreapp3.1\просто.pdb
 E:\For c# and web prog\C#\6 лабка\3 завдання\obj\Debug\netcoreapp3.1\просто.genruntimeconfig.cache
+E:\For c# and web prog\C#\3 лабка 2 Варіант\3 завдання\bin\Debug\netcoreapp3.1\просто.exe
+E:\For c# and web prog\C#\3 лабка 2 Варіант\3 завдання\bin\Debug\netcoreapp3.1\просто.deps.json
+E:\For c# and web prog\C#\3 лабка 2 Варіант\3 завдання\bin\Debug\netcoreapp3.1\просто.runtimeconfig.json
+E:\For c# and web prog\C#\3 лабка 2 Варіант\3 завдання\bin\Debug\netcoreapp3.1\просто.runtimeconfig.dev.json
+E:\For c# and web prog\C#\3 лабка 2 Варіант\3 завдання\bin\Debug\netcoreapp3.1\просто.dll
+E:\For c# and web prog\C#\3 лабка 2 Варіант\3 завдання\bin\Debug\netcoreapp3.1\просто.pdb
+E:\For c# and web prog\C#\3 лабка 2 Варіант\3 завдання\obj\Debug\netcoreapp3.1\просто.csprojAssemblyReference.cache
+E:\For c# and web prog\C#\3 лабка 2 Варіант\3 завдання\obj\Debug\netcoreapp3.1\просто.AssemblyInfoInputs.cache
+E:\For c# and web prog\C#\3 лабка 2 Варіант\3 завдання\obj\Debug\netcoreapp3.1\просто.AssemblyInfo.cs
+E:\For c# and web prog\C#\3 лабка 2 Варіант\3 завдання\obj\Debug\netcoreapp3.1\просто.csproj.CoreCompileInputs.cache
+E:\For c# and web prog\C#\3 лабка 2 Варіант\3 завдання\obj\Debug\netcoreapp3.1\просто.dll
+E:\For c# and web prog\C#\3 лабка 2 Варіант\3 завдання\obj\Debug\netcoreapp3.1\просто.pdb
+E:\For c# and web prog\C#\3 лабка 2 Варіант\3 завдання\obj\Debug\netcoreapp3.1\просто.genruntimeconfig.cache

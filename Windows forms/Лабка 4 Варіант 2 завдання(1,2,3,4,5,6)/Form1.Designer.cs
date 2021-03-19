@@ -64,6 +64,8 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             this.label7 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label15 = new System.Windows.Forms.Label();
+            this.dataGridView9 = new System.Windows.Forms.DataGridView();
             this.dataGridView8 = new System.Windows.Forms.DataGridView();
             this.row = new System.Windows.Forms.TextBox();
             this.col = new System.Windows.Forms.TextBox();
@@ -72,9 +74,16 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             this.label12 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.m_txb = new System.Windows.Forms.TextBox();
+            this.n_txb = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.dataGridView9 = new System.Windows.Forms.DataGridView();
-            this.label15 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.dataGridView10 = new System.Windows.Forms.DataGridView();
+            this.label19 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -87,8 +96,10 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
+            this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -450,6 +461,25 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             this.tabPage4.Text = "Завдання 4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(280, 244);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(163, 17);
+            this.label15.TabIndex = 8;
+            this.label15.Text = "Відсортована  Матриця";
+            // 
+            // dataGridView9
+            // 
+            this.dataGridView9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView9.Location = new System.Drawing.Point(157, 264);
+            this.dataGridView9.Name = "dataGridView9";
+            this.dataGridView9.RowHeadersWidth = 51;
+            this.dataGridView9.RowTemplate.Height = 24;
+            this.dataGridView9.Size = new System.Drawing.Size(444, 150);
+            this.dataGridView9.TabIndex = 7;
+            // 
             // dataGridView8
             // 
             this.dataGridView8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -513,6 +543,15 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.label19);
+            this.tabPage5.Controls.Add(this.dataGridView10);
+            this.tabPage5.Controls.Add(this.label18);
+            this.tabPage5.Controls.Add(this.textBox1);
+            this.tabPage5.Controls.Add(this.m_txb);
+            this.tabPage5.Controls.Add(this.n_txb);
+            this.tabPage5.Controls.Add(this.label17);
+            this.tabPage5.Controls.Add(this.label16);
+            this.tabPage5.Controls.Add(this.button5);
             this.tabPage5.Location = new System.Drawing.Point(4, 25);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
@@ -520,6 +559,48 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Завдання 5";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // m_txb
+            // 
+            this.m_txb.Location = new System.Drawing.Point(337, 68);
+            this.m_txb.Name = "m_txb";
+            this.m_txb.Size = new System.Drawing.Size(100, 22);
+            this.m_txb.TabIndex = 4;
+            // 
+            // n_txb
+            // 
+            this.n_txb.Location = new System.Drawing.Point(337, 19);
+            this.n_txb.Name = "n_txb";
+            this.n_txb.Size = new System.Drawing.Size(100, 22);
+            this.n_txb.TabIndex = 3;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(239, 68);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(19, 17);
+            this.label17.TabIndex = 2;
+            this.label17.Text = "m";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(239, 24);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(16, 17);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "n";
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(239, 120);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 0;
+            this.button5.Text = "result";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // tabPage6
             // 
@@ -531,24 +612,40 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             this.tabPage6.Text = "Завдання 6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // dataGridView9
+            // textBox1
             // 
-            this.dataGridView9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView9.Location = new System.Drawing.Point(157, 264);
-            this.dataGridView9.Name = "dataGridView9";
-            this.dataGridView9.RowHeadersWidth = 51;
-            this.dataGridView9.RowTemplate.Height = 24;
-            this.dataGridView9.Size = new System.Drawing.Size(444, 150);
-            this.dataGridView9.TabIndex = 7;
+            this.textBox1.Location = new System.Drawing.Point(337, 175);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 5;
             // 
-            // label15
+            // label18
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(280, 244);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(163, 17);
-            this.label15.TabIndex = 8;
-            this.label15.Text = "Відсортована  Матриця";
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(46, 180);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(268, 17);
+            this.label18.TabIndex = 6;
+            this.label18.Text = "Кількість стовпчиків з не 0 елементами";
+            // 
+            // dataGridView10
+            // 
+            this.dataGridView10.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView10.Location = new System.Drawing.Point(517, 0);
+            this.dataGridView10.Name = "dataGridView10";
+            this.dataGridView10.RowHeadersWidth = 51;
+            this.dataGridView10.RowTemplate.Height = 24;
+            this.dataGridView10.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView10.TabIndex = 7;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(615, 3);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(45, 17);
+            this.label19.TabIndex = 8;
+            this.label19.Text = "Matrix";
             // 
             // Form1
             // 
@@ -575,8 +672,11 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).EndInit();
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -629,6 +729,15 @@ namespace Лабка_4_Варіант_2_завдання_1_2_3_4_5_6_
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.DataGridView dataGridView9;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox m_txb;
+        private System.Windows.Forms.TextBox n_txb;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.DataGridView dataGridView10;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

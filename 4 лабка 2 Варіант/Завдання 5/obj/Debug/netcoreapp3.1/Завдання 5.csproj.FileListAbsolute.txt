@@ -1,0 +1,13 @@
+E:\For c# and web prog\C#\Windows forms\Лабка 4 Варіант 2\Завдання 5\bin\Debug\netcoreapp3.1\Завдання 5.exe
+E:\For c# and web prog\C#\Windows forms\Лабка 4 Варіант 2\Завдання 5\bin\Debug\netcoreapp3.1\Завдання 5.deps.json
+E:\For c# and web prog\C#\Windows forms\Лабка 4 Варіант 2\Завдання 5\bin\Debug\netcoreapp3.1\Завдання 5.runtimeconfig.json
+E:\For c# and web prog\C#\Windows forms\Лабка 4 Варіант 2\Завдання 5\bin\Debug\netcoreapp3.1\Завдання 5.runtimeconfig.dev.json
+E:\For c# and web prog\C#\Windows forms\Лабка 4 Варіант 2\Завдання 5\bin\Debug\netcoreapp3.1\Завдання 5.dll
+E:\For c# and web prog\C#\Windows forms\Лабка 4 Варіант 2\Завдання 5\bin\Debug\netcoreapp3.1\Завдання 5.pdb
+E:\For c# and web prog\C#\Windows forms\Лабка 4 Варіант 2\Завдання 5\obj\Debug\netcoreapp3.1\Завдання 5.csprojAssemblyReference.cache
+E:\For c# and web prog\C#\Windows forms\Лабка 4 Варіант 2\Завдання 5\obj\Debug\netcoreapp3.1\Завдання 5.AssemblyInfoInputs.cache
+E:\For c# and web prog\C#\Windows forms\Лабка 4 Варіант 2\Завдання 5\obj\Debug\netcoreapp3.1\Завдання 5.AssemblyInfo.cs
+E:\For c# and web prog\C#\Windows forms\Лабка 4 Варіант 2\Завдання 5\obj\Debug\netcoreapp3.1\Завдання 5.csproj.CoreCompileInputs.cache
+E:\For c# and web prog\C#\Windows forms\Лабка 4 Варіант 2\Завдання 5\obj\Debug\netcoreapp3.1\Завдання 5.dll
+E:\For c# and web prog\C#\Windows forms\Лабка 4 Варіант 2\Завдання 5\obj\Debug\netcoreapp3.1\Завдання 5.pdb
+E:\For c# and web prog\C#\Windows forms\Лабка 4 Варіант 2\Завдання 5\obj\Debug\netcoreapp3.1\Завдання 5.genruntimeconfig.cache
