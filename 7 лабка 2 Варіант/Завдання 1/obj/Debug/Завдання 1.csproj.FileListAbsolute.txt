@@ -1,0 +1,7 @@
+E:\For c# and web prog\C#\7 лабка 2 Варіант\Завдання 1\obj\Debug\Завдання 1.csprojAssemblyReference.cache
+E:\For c# and web prog\C#\7 лабка 2 Варіант\Завдання 1\obj\Debug\Завдання 1.csproj.CoreCompileInputs.cache
+E:\For c# and web prog\C#\7 лабка 2 Варіант\Завдання 1\bin\Debug\Завдання 1.exe.config
+E:\For c# and web prog\C#\7 лабка 2 Варіант\Завдання 1\bin\Debug\Завдання 1.exe
+E:\For c# and web prog\C#\7 лабка 2 Варіант\Завдання 1\bin\Debug\Завдання 1.pdb
+E:\For c# and web prog\C#\7 лабка 2 Варіант\Завдання 1\obj\Debug\Завдання 1.exe
+E:\For c# and web prog\C#\7 лабка 2 Варіант\Завдання 1\obj\Debug\Завдання 1.pdb
