@@ -12,8 +12,8 @@ namespace Завдання_1
         public int[] coor { get; set;}
         public Vector(int k ,int[] v)
         {
-            this.n = k;
-            this.coor = v;
+            n = k;
+            coor = v;
         }
         public Vector(int k):this(k,null)
         {
