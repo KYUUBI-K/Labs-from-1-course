@@ -40,6 +40,26 @@ namespace Завдання_1
                 Console.Write($"{i} ");
             }
         }
+         public int length()
+        {
+            int  l_a = 0;
+            for (int i = 0; i < coor.Length; i++)
+            {
+                l_a =(int)(Math.Sqrt(coor[i] * 2));
+
+            }
+            return l_a;
+        }
+        public int norm_v(int length)
+        {
+            int el = 0;
+            for (int i = 0; i < n; i++)
+            {
+                el = (coor[i] / length);
+
+            }
+            return el;
+        }
 
     }
 }
