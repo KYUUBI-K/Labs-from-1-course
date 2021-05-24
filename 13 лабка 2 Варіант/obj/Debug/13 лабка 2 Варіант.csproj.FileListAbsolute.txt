@@ -1,0 +1,10 @@
+E:\For c# and web prog\C#\13 лабка 2 Варіант\bin\Debug\13 лабка 2 Варіант.exe.config
+E:\For c# and web prog\C#\13 лабка 2 Варіант\bin\Debug\13 лабка 2 Варіант.exe
+E:\For c# and web prog\C#\13 лабка 2 Варіант\bin\Debug\13 лабка 2 Варіант.pdb
+E:\For c# and web prog\C#\13 лабка 2 Варіант\obj\Debug\13 лабка 2 Варіант.csprojAssemblyReference.cache
+E:\For c# and web prog\C#\13 лабка 2 Варіант\obj\Debug\_13_лабка_2_Варіант.Properties.Resources.resources
+E:\For c# and web prog\C#\13 лабка 2 Варіант\obj\Debug\13 лабка 2 Варіант.csproj.GenerateResource.cache
+E:\For c# and web prog\C#\13 лабка 2 Варіант\obj\Debug\13 лабка 2 Варіант.csproj.CoreCompileInputs.cache
+E:\For c# and web prog\C#\13 лабка 2 Варіант\obj\Debug\13 лабка 2 Варіант.exe
+E:\For c# and web prog\C#\13 лабка 2 Варіант\obj\Debug\13 лабка 2 Варіант.pdb
+E:\For c# and web prog\C#\13 лабка 2 Варіант\obj\Debug\_13_лабка_2_Варіант.Form1.resources
