@@ -1,0 +1,10 @@
+E:\For c# and web prog\test\Тест\bin\Debug\Тест.exe.config
+E:\For c# and web prog\test\Тест\bin\Debug\Тест.exe
+E:\For c# and web prog\test\Тест\bin\Debug\Тест.pdb
+E:\For c# and web prog\test\Тест\obj\Debug\Тест.csprojAssemblyReference.cache
+E:\For c# and web prog\test\Тест\obj\Debug\Тест.Form1.resources
+E:\For c# and web prog\test\Тест\obj\Debug\Тест.Properties.Resources.resources
+E:\For c# and web prog\test\Тест\obj\Debug\Тест.csproj.GenerateResource.cache
+E:\For c# and web prog\test\Тест\obj\Debug\Тест.csproj.CoreCompileInputs.cache
+E:\For c# and web prog\test\Тест\obj\Debug\Тест.exe
+E:\For c# and web prog\test\Тест\obj\Debug\Тест.pdb
