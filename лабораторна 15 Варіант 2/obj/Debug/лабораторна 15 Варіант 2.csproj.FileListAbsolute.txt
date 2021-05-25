@@ -1,0 +1,10 @@
+E:\For c# and web prog\C#\лабораторна 15 Варіант 2\bin\Debug\лабораторна 15 Варіант 2.exe.config
+E:\For c# and web prog\C#\лабораторна 15 Варіант 2\bin\Debug\лабораторна 15 Варіант 2.exe
+E:\For c# and web prog\C#\лабораторна 15 Варіант 2\bin\Debug\лабораторна 15 Варіант 2.pdb
+E:\For c# and web prog\C#\лабораторна 15 Варіант 2\obj\Debug\лабораторна 15 Варіант 2.csprojAssemblyReference.cache
+E:\For c# and web prog\C#\лабораторна 15 Варіант 2\obj\Debug\лабораторна_15_Варіант_2.Form1.resources
+E:\For c# and web prog\C#\лабораторна 15 Варіант 2\obj\Debug\лабораторна_15_Варіант_2.Properties.Resources.resources
+E:\For c# and web prog\C#\лабораторна 15 Варіант 2\obj\Debug\лабораторна 15 Варіант 2.csproj.GenerateResource.cache
+E:\For c# and web prog\C#\лабораторна 15 Варіант 2\obj\Debug\лабораторна 15 Варіант 2.csproj.CoreCompileInputs.cache
+E:\For c# and web prog\C#\лабораторна 15 Варіант 2\obj\Debug\лабораторна 15 Варіант 2.exe
+E:\For c# and web prog\C#\лабораторна 15 Варіант 2\obj\Debug\лабораторна 15 Варіант 2.pdb
