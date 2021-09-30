@@ -1,0 +1,15 @@
+E:\For c# and web prog\C#\2Cource\Lab1\bin\Debug\netcoreapp3.1\Lab1.exe
+E:\For c# and web prog\C#\2Cource\Lab1\bin\Debug\netcoreapp3.1\Lab1.deps.json
+E:\For c# and web prog\C#\2Cource\Lab1\bin\Debug\netcoreapp3.1\Lab1.runtimeconfig.json
+E:\For c# and web prog\C#\2Cource\Lab1\bin\Debug\netcoreapp3.1\Lab1.runtimeconfig.dev.json
+E:\For c# and web prog\C#\2Cource\Lab1\bin\Debug\netcoreapp3.1\Lab1.dll
+E:\For c# and web prog\C#\2Cource\Lab1\bin\Debug\netcoreapp3.1\Lab1.pdb
+E:\For c# and web prog\C#\2Cource\Lab1\obj\Debug\netcoreapp3.1\Lab1.csprojAssemblyReference.cache
+E:\For c# and web prog\C#\2Cource\Lab1\obj\Debug\netcoreapp3.1\Lab1.AssemblyInfoInputs.cache
+E:\For c# and web prog\C#\2Cource\Lab1\obj\Debug\netcoreapp3.1\Lab1.AssemblyInfo.cs
+E:\For c# and web prog\C#\2Cource\Lab1\obj\Debug\netcoreapp3.1\Lab1.csproj.CoreCompileInputs.cache
+E:\For c# and web prog\C#\2Cource\Lab1\obj\Debug\netcoreapp3.1\Lab1.dll
+E:\For c# and web prog\C#\2Cource\Lab1\obj\Debug\netcoreapp3.1\Lab1.pdb
+E:\For c# and web prog\C#\2Cource\Lab1\obj\Debug\netcoreapp3.1\Lab1.genruntimeconfig.cache
+E:\For c# and web prog\C#\2Cource\Lab1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\For c# and web prog\C#\2Cource\Lab1\obj\Debug\netcoreapp3.1\Lab1.csproj.CopyComplete
