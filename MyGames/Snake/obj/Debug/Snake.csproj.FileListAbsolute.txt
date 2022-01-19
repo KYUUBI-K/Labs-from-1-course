@@ -1,0 +1,10 @@
+E:\For c# and web prog\C#\MyGames\Snake\bin\Debug\Snake.exe.config
+E:\For c# and web prog\C#\MyGames\Snake\bin\Debug\Snake.exe
+E:\For c# and web prog\C#\MyGames\Snake\bin\Debug\Snake.pdb
+E:\For c# and web prog\C#\MyGames\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+E:\For c# and web prog\C#\MyGames\Snake\obj\Debug\Snake.Form1.resources
+E:\For c# and web prog\C#\MyGames\Snake\obj\Debug\Snake.Properties.Resources.resources
+E:\For c# and web prog\C#\MyGames\Snake\obj\Debug\Snake.csproj.GenerateResource.cache
+E:\For c# and web prog\C#\MyGames\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+E:\For c# and web prog\C#\MyGames\Snake\obj\Debug\Snake.exe
+E:\For c# and web prog\C#\MyGames\Snake\obj\Debug\Snake.pdb

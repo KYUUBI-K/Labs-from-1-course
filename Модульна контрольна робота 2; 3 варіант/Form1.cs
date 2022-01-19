@@ -119,6 +119,11 @@ namespace Тест
             }
             
         }
+
+        private void іншеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 

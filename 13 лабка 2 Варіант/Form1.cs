@@ -86,5 +86,13 @@ namespace _13_лабка_2_Варіант
                 SW.Close();
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double hours = double.Parse(textBox3.Text);
+            Show(_db.Query(Directory => Directory.working_hours <= hours));
+            'Сімя"=="Сімя"
+
+        }
     }
 }

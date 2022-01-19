@@ -29,9 +29,9 @@ namespace Тест
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.зберегтиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,6 +53,10 @@ namespace Тест
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.іншеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -82,21 +86,22 @@ namespace Тест
             // зберегтиToolStripMenuItem
             // 
             this.зберегтиToolStripMenuItem.Name = "зберегтиToolStripMenuItem";
-            this.зберегтиToolStripMenuItem.Size = new System.Drawing.Size(182, 26);
+            this.зберегтиToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.зберегтиToolStripMenuItem.Text = "Зберегти";
             this.зберегтиToolStripMenuItem.Click += new System.EventHandler(this.зберегтиToolStripMenuItem_Click);
             // 
             // завантажитиToolStripMenuItem
             // 
             this.завантажитиToolStripMenuItem.Name = "завантажитиToolStripMenuItem";
-            this.завантажитиToolStripMenuItem.Size = new System.Drawing.Size(182, 26);
+            this.завантажитиToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.завантажитиToolStripMenuItem.Text = "Завантажити";
             this.завантажитиToolStripMenuItem.Click += new System.EventHandler(this.завантажитиToolStripMenuItem_Click);
             // 
             // операціїToolStripMenuItem
             // 
             this.операціїToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.наДіаграмуToolStripMenuItem});
+            this.наДіаграмуToolStripMenuItem,
+            this.іншеToolStripMenuItem});
             this.операціїToolStripMenuItem.Name = "операціїToolStripMenuItem";
             this.операціїToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
             this.операціїToolStripMenuItem.Text = "Операції";
@@ -166,16 +171,16 @@ namespace Тест
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(940, 53);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart1.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart1.Series.Add(series2);
             this.chart1.Size = new System.Drawing.Size(300, 300);
             this.chart1.TabIndex = 5;
             this.chart1.Text = "chart1";
@@ -232,11 +237,46 @@ namespace Тест
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // іншеToolStripMenuItem
+            // 
+            this.іншеToolStripMenuItem.Name = "іншеToolStripMenuItem";
+            this.іншеToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.іншеToolStripMenuItem.Text = "Інше";
+            this.іншеToolStripMenuItem.Click += new System.EventHandler(this.іншеToolStripMenuItem_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(29, 32);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 17);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "label3";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(145, 27);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 22);
+            this.textBox3.TabIndex = 13;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(297, 32);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 383);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -279,6 +319,10 @@ namespace Тест
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ToolStripMenuItem іншеToolStripMenuItem;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button button3;
     }
 }
 

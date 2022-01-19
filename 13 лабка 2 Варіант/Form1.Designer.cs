@@ -41,6 +41,9 @@ namespace _13_лабка_2_Варіант
             this.зберегтиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -62,7 +65,7 @@ namespace _13_лабка_2_Варіант
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 132);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 137);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -114,7 +117,7 @@ namespace _13_лабка_2_Варіант
             this.опціїToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
             this.menuStrip1.TabIndex = 13;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -123,13 +126,13 @@ namespace _13_лабка_2_Варіант
             this.опціїToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.зберегтиToolStripMenuItem});
             this.опціїToolStripMenuItem.Name = "опціїToolStripMenuItem";
-            this.опціїToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
+            this.опціїToolStripMenuItem.Size = new System.Drawing.Size(60, 26);
             this.опціїToolStripMenuItem.Text = "Опції";
             // 
             // зберегтиToolStripMenuItem
             // 
             this.зберегтиToolStripMenuItem.Name = "зберегтиToolStripMenuItem";
-            this.зберегтиToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.зберегтиToolStripMenuItem.Size = new System.Drawing.Size(155, 26);
             this.зберегтиToolStripMenuItem.Text = "Зберегти";
             this.зберегтиToolStripMenuItem.Click += new System.EventHandler(this.зберегтиToolStripMenuItem_Click_1);
             // 
@@ -137,11 +140,40 @@ namespace _13_лабка_2_Варіант
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(126, 334);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 22);
+            this.textBox3.TabIndex = 14;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 337);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(107, 17);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Кількість годин";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(265, 337);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 16;
+            this.button3.Text = "знайти";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
@@ -174,6 +206,9 @@ namespace _13_лабка_2_Варіант
         private System.Windows.Forms.ToolStripMenuItem зберегтиToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button3;
     }
 }
 
